@@ -1,22 +1,25 @@
 RailsBerry 2012 talk -- Expert-level Vim
 
 solicit questions
+
 experience-level survey
 quick tips for beginners
   don't be scared
   use vimtutor
+
 what holds intermediate vimmers back?
   high-level
     they're not actively trying to improve
       pay more attention!
         frequently-repeated commands are high-value
-          be anal! 
+          be obnoxiously intolerant of extra typing
             C-s instead of :w
             <Leader>w instead of C-w w
           bind a ton of leaders
         also watch for occasional operations that are particularly slow
           record a macro for turning var into a let
           record a macro for extracting a method (we're gonna do this later)
+        accept your typos and bind them
       always be learning
         understand accretion - have a cheat sheet
     their vimrcs suck
@@ -24,17 +27,28 @@ what holds intermediate vimmers back?
       I don't like janus
       your vimrc should be growing roughly linearly with your skill
       mike burns' vimrc
-      rebind your typos
-  low-level
-    they never learned key concepts
+    they don't rtfm
+      editing effectively is great
 
-registers
-macros
-vimscript
-link to my vimrc
+  low-level
+    they use the arrow keys
+    they never learned key concepts
+      registers
+        yanking into a register
+        :registers
+        "0 
+      macros
+      vimscript
+
+contact/github info
 
 Todo:
   record macro for var into let 
   practice macro for extract method (then do live)
 
 Setup:
+  text size huge
+  friendly resolution
+  invert colors
+  check registers for contraband
+  make sure command-t works
