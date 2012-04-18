@@ -17,8 +17,8 @@ what holds intermediate vimmers back?
             <Leader>w instead of C-w w
           bind a ton of leaders
         also watch for occasional operations that are particularly slow
-          record a macro for turning var into a let
-          record a macro for extracting a method (we're gonna do this later)
+          record a macro for turning var into a let (and we'll do this live)
+          record a macro for extracting a method
         accept your typos and bind them
       always be learning
         understand accretion - have a cheat sheet
@@ -32,23 +32,32 @@ what holds intermediate vimmers back?
 
   low-level
     they use the arrow keys
+    they don't use command-t
+    they don't know important motions
+      w, t, f, i, a
+      dap (use whitespaced methods)
     they never learned key concepts
       registers
         yanking into a register
         :registers
         "0 
       macros
+        turn var assign into a let
+        dump macro and then change method name 
       vimscript
+        steve losh's book
 
-contact/github info
+  pimp Drew's book
+
+  contact/github info
 
 Todo:
-  record macro for var into let 
-  practice macro for extract method (then do live)
+  practice macro for var into let 
+  print notes
 
 Setup:
   text size huge
   friendly resolution
   invert colors
   check registers for contraband
-  make sure command-t works
+  verify teacher_spec.rb is good
