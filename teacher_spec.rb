@@ -11,13 +11,3 @@ describe Teacher do
     end
   end
 end
-
-class Foo
-
-  def bar
-  end
-
-  def baz
-  end
-
-end

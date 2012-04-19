@@ -1,0 +1,3 @@
+Practical Vim, by Drew Neil
+
+25% discount: RailsberryVIM2012
